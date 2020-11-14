@@ -1,0 +1,11 @@
+@mixin reset-centered-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@mixin margin-in-header {
+        margin-left: 40px;
+}
