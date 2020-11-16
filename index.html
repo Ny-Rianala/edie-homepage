@@ -48,7 +48,7 @@
             </article>
             <article class="article__card">
                 <div id="card">            
-                    <button class="article__card--icon" id="unfold"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 5.83L15.17 9l1.41-1.41L12 3 7.41 7.59 8.83 9 12 5.83zm0 12.34L8.83 15l-1.41 1.41L12 21l4.59-4.59L15.17 15 12 18.17z"/></svg></button>
+                    <button class="article__card--icon" id="unfold"><a href=""></a><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 5.83L15.17 9l1.41-1.41L12 3 7.41 7.59 8.83 9 12 5.83zm0 12.34L8.83 15l-1.41 1.41L12 21l4.59-4.59L15.17 15 12 18.17z"/></svg></button>
                     <h4 class="article__header"></h4>Front End</h4>
                     <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
                     <button  class="article__card--button" id="front-end-btn" type="submit">Get started</button>
@@ -63,42 +63,54 @@
                 </div>
             </article>
         </div>
-        <div>
-            <h1>Good design means good business</h1>
-            <div>   
+        <div class="info">
+            <h1 class="info__header">Good design means good business</h1>
+            <div class="info__detail">   
                 <article>
-                    <a href="#">Full stack application</a>
-                    <p>Smart home dashboard</p>
+                    <img class="info__image" src="./webroot/images/smarthome.jpg" alt="smartphone">
+                    <a href="#"><p class="info__link">Full stack application</p></a>
+                    <p class="info__paragraph">Smart home dashboard</p>
                 </article>
                 <article>
-                    <a href="#">UX/UI design</a>
-                    <p>Onboard application</p>
+                    <img class="info__image" src="./webroot/images/booking.png" alt="">
+                    <a href="#"><p class="info__link">UX/UI design</p></a>
+                    <p class="info__paragraph">Onboard application</p>
                 </article>
             </div>
             <div>
-                <article>
-                    <a href="#">Mobile Application</a>
-                    <p>Booking system</p>
+                <article >
+                    <img  class="info__image" src="./webroot/images/onboard.png" alt="">
+                    <a href="#"><p class="info__link" >Mobile Application</p></a>
+                    <p class="info__paragraph">Booking system</p>
                 </article>
                 <article>
-                    <a href="#">Front End applicati on</a>
-                    <p>Juice product homepage</p>
+                    <img class="info__image" src="./webroot/images/juice-product.png" alt="">
+                    <a href="#"><p class="info__link">Front End application</p></a>
+                    <p class="info__paragraph">Juice product homepage</p>
                 </article>
             </div>
-            <a href="#">see more</a>
+            <a class="more-info" href="#">see more<svg class="arrow-right" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"/></svg></a>
         </div>
-        <div>
-            <p>Meet the team</p>
-            <h1>We are chilled and a laidback team</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="teamInfo">
+            <p class="teamInfo__header">Meet the team</p>
+            <h1 class="teamInfo__subheader">We are chilled and a laidback team</h1>
+            <p class="teamInfo__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
         </div>
-        <div>
-            <h5><q>Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team</q>
+        <div class="wrapper">
+            <div class="teamImage">
+            <div class="teamImage__image1"><img  src="./webroot/images/person3.png" alt="girl"></div>
+            <div class="teamImage__image2"><img  src="./webroot/images/person1.png" alt=""></div>
+            <div  class="teamImage__images3"><img  src="./webroot/images/person2.png" alt=""></div>
+            </div>
+        </div>
+        <div class="testimonials">
+            <h5 class="testimonials__text"><q>Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team</q>
             </h5>
-            <img src="" alt="">
-            <ul>
-                <li>Carlos Tran</li>
-                <li>The Decorate Gatsby</li>
+            <ul class="testimonial">
+                <img class="testimonial__image" src="./webroot/images/person4.png" alt="">
+                <li class="testimonial__name">Carlos Tran</li>
+                <li class="testimonial__title">The Decorate Gatsby</li>
             </ul>
         </div>
     </main>

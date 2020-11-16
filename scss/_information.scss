@@ -1,0 +1,35 @@
+.info {
+    margin-top: 146px;
+    &__header{
+        margin-left: 45px;
+        margin-right: 63px;
+        font-size: 24px;
+        line-height: 36px;
+}
+&__image {
+    border-radius: 12px;
+    margin-top: 48px;
+}
+&__link {
+    margin-top: 10px;
+    color: $button-color;
+    margin-left: 10px;
+}&__paragraph {
+    color: #333333;
+    font-size: 27px;
+    margin-left: 10px;
+}
+}
+
+
+.arrow-right {
+    color: $color-brand;
+    top: 10%;
+    left: 10%;
+    position: absolute;
+}
+
+.more-info {
+    position: relative;
+    color: $color-brand;
+}
