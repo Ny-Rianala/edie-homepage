@@ -1,0 +1,36 @@
+.footer {
+    background-color: #100E1D;
+    margin-top: 103px;
+    padding-top: 36px;
+    color: white;
+    margin-left: 0;
+    &__link {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 64px;
+    &--item {
+        color: white;
+        margin-top: 1rem;
+    }
+}}
+
+.footer__link li {
+    padding-top: 1rem;
+}
+
+.edie-link {
+    color: white;
+    margin-left: 41px;
+}
+
+
+
+
+.share {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 65px;
+    &__link {
+        margin-right: 1rem;
+    }
+} 

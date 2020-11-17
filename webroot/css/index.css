@@ -21,7 +21,7 @@ a {
 span {
   visibility: hidden; }
 
-svg {
+.article__card svg {
   fill: currentColor;
   color: white; }
 
@@ -333,3 +333,31 @@ body > nav > ul a:hover {
 .testimonial__title {
   grid-row: 3 / 5;
   grid-column: 2 / 3; }
+
+.footer {
+  background-color: #100E1D;
+  margin-top: 103px;
+  padding-top: 36px;
+  color: white;
+  margin-left: 0; }
+  .footer__link {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 64px; }
+    .footer__link--item {
+      color: white;
+      margin-top: 1rem; }
+
+.footer__link li {
+  padding-top: 1rem; }
+
+.edie-link {
+  color: white;
+  margin-left: 41px; }
+
+.share {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 65px; }
+  .share__link {
+    margin-right: 1rem; }
